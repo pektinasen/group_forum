@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains group_forum.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function group_forum_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the group_forum module.
+    case 'help.page.group_forum':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Handle Permissions for core forums') . '</p>';
+      return $output;
+
+    default:
+  }
+}

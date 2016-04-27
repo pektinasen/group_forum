@@ -1,0 +1,14 @@
+{
+  "name": "drupal/group_forum",
+  "type": "drupal-module",
+  "description": "Handle Permissions for core forums",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/group_forum",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/group_forum",
+    "source": "http://cgit.drupalcode.org/group_forum"
+  },
+  "require": { }
+}
